@@ -20,7 +20,7 @@ function searchProfile(url) {
       main.appendChild(p);
       img.src = `${data.avatar_url}`;
       // Putting the Api data on the elements.
-      h3.innerHTML = ` Login : <a href="${data.html_url}" target="_blank">${data.login}</a>`;
+      h3.innerHTML = ` Username : <a href="${data.html_url}" target="_blank">${data.login}</a>`;
       h2.innerHTML = ` Name : ${data.name}`;
       p.innerHTML = `Bio : ${data.bio}`;
     });
